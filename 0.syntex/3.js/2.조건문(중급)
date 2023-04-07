@@ -1,0 +1,56 @@
+중급 조건문
+
+let b = 1
+b === 1 && console.log("b는 1이다.")
+        //  앞의 b===1은 Boolean
+            뒤의 console.log는 function
+                        function이 이김
+        타입간 비교 하면 Boolean은 항상 마지막
+
+        function은 무조건 값이 있고 내용물이 있기 때문에 true
+        Boolean이 값이 있는 true라면 && (and) 니까 전체가 true가 되고   
+                                    Boolean값과 function값 중 하나가 나오게 됨. 
+                                    Boolean과 function 중 function이 우선이니 function이 실행 됨
+                                            결과적으로 앞의 값이 true일 때만 실행 되는 로직이 형성 됨
+                         false라면 바로 false값이 됨
+        결과적으로
+
+        let a = 1
+        a === 1 && console.log("a는 1이다.")
+
+        이 조건문은
+
+        let a = 1
+        if (a === 1) {
+            console.log("a는 1이다.")
+        }
+         이 조건문과 같은 내용의 조건문임.
+
+         //
+
+3항 연산자  else
+
+        if (a === 1) {
+            console.log("a는 1이다.")
+        }else {
+            console.log("a는 1이아니다.")
+        }
+
+        중급으로 작성하게 되면
+
+        b === 1 ? console.log("a는 1이다.") : console.log("a는 1이 아니다.")
+
+        // 
+        ? 입력 
+        true일때 값을 앞에 넣고 
+        false일때 값을 뒤에 넣음
+
+
+3항 연산자 else if  여러개 있는 경우
+
+        b === 1 ? console.log("a는 1이다.") : b === 2 ? console.log("a는 2이 이다.") : b === 3 ? console.log("a는 3이다.")
+
+무조건 중급 조건문으로 공부하고 연습하기.
+
+
+

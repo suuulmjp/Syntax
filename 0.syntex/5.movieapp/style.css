@@ -1,0 +1,29 @@
+.movieTitle {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color : gray;
+    border: 1px solid gray;
+    width: 220px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.movieTitle:hover{
+    color : skyblue;
+    background-color: black;
+    border: 1px solid skyblue;;
+}
+
+
+.movieRatingGood {
+    color : red;
+}
+
+.movieRatingSoso {
+    color : orange;
+}
+
+.movieRatingBad {
+    color : black;
+}
